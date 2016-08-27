@@ -10,8 +10,14 @@ public class PNMessageResult {
 
     private JsonNode message;
 
+    @Deprecated
     private String subscribedChannel;
+    @Deprecated
     private String actualChannel;
+
+    private String associatedChannel;
+    private String associatedChannelGroup;
+
     private Long timetoken;
     private Object userMetadata;
 

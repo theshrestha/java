@@ -15,8 +15,14 @@ public class PNPresenceEventResult {
     private Integer occupancy;
     private JsonNode state;
 
+    @Deprecated
     private String subscribedChannel;
+    @Deprecated
     private String actualChannel;
+
+    private String associatedChannel;
+    private String associatedChannelGroup;
+
     private Long timetoken;
     private Object userMetadata;
 
