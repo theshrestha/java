@@ -24,12 +24,15 @@ public class PubNubExceptionTest extends TestHarness {
     private PubNub pubnub;
     private Publish instance;
 
+    public int i =100;
+    
     @Before
     public void beforeEach() throws IOException {
         pubnub = this.createPubNubInstance(8080);
         instance = pubnub.publish();
     }
-
+// this is also a test
+    // this is a test
     @Test
     public void testPubnubError() throws PubNubException, InterruptedException {
 

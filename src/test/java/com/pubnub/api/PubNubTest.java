@@ -10,7 +10,8 @@ import java.io.IOException;
 public class PubNubTest {
     private PubNub pubnub;
     private PNConfiguration pnConfiguration;
-
+// this is also a test
+    int i =50;
     @Before
     public void beforeEach() throws IOException {
         pnConfiguration = new PNConfiguration();
