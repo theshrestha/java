@@ -1,5 +1,5 @@
-this is a test only a test
-
+//this is a test only a test
+// hera is th e
 import com.fasterxml.jackson.databind.JsonNode;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import com.pubnub.api.PubNub;
@@ -10,7 +10,7 @@ import com.pubnub.api.endpoints.pubsub.Publish;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
-asdfasdf
+//asdfasdf
 import java.io.IOException;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
